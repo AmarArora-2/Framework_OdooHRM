@@ -27,21 +27,6 @@ try:
     click.click()
     time.sleep(2)
 
-    expected = "Discuss"
-    act = driver.find_element(By.XPATH, "//a[@role='menuitem']").text
-
-    if expected == act:
-        print("Test case pass")
-    else:
-        print("Test case fail")
-
-except Exception as e:
-    print(f"An error occurred: {e}")
-
-finally:
-    print(driver.title)
-    print(driver.current_url)
-    print(driver.page_source)
-    driver.quit()
+    assert driver.title = "Inbox", "not the correct way"
 
 
