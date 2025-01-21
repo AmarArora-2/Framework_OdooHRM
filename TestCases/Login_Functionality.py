@@ -27,7 +27,7 @@ try:
     click.click()
     time.sleep(2)
 
-    expected = "Discusses"
+    expected = "Discuss"
     act = driver.find_element(By.XPATH, "//a[@role='menuitem']").text
 
     if expected == act:
