@@ -25,6 +25,7 @@ time.sleep(2)
 click = driver.find_element(By.XPATH, '//*[@class="btn btn-primary"]')
 click.click()
 time.sleep(2)
-assert driver.title = "Inbox"
+assert driver.title == "Inbox"
+
 
 
