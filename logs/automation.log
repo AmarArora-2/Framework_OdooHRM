@@ -1,0 +1,7 @@
+2025-02-17 10:30:45,123 - INFO - Starting login test for username: admin and password: admin
+2025-02-17 10:30:47,456 - INFO - Login successful
+2025-02-17 10:30:47,567 - INFO - Test for username: admin complete.
+2025-02-17 10:30:55,234 - INFO - Starting login test for username: wronguser and password: wrongpassword
+2025-02-17 10:30:58,890 - WARNING - Login failed for user wronguser. Expected error message: Access Denied
+2025-02-17 10:30:58,991 - INFO - Test for username: wronguser complete.
+2025-02-17 10:31:01,234 - ERROR - Test failed: Login attempt failed with exception XYZ
